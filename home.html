@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about EhCookWhat - Your friendly guide to cooking Chinese dishes at home">
+    <title>About Us - EhCookWhat</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Pastel Red Chinese-themed About page */
+        body {
+            background: linear-gradient(135deg, #FFD6D6 0%, #FFBABA 100%);
+        }
+        
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: #D65555;
+        }
+        
+        .nav-logo img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 2px 8px rgba(214, 85, 85, 0.3);
+            transition: transform 0.3s ease;
+        }
+        
+        .nav-logo:hover img {
+            transform: scale(1.05);
+        }
+        
+        .nav-logo:hover {
+            color: #E67373;
+        }
+        
+        .nav-link.active {
+            color: #D65555;
+        }
+        
+        .nav-link.active::after {
+            background-color: #E67373;
+        }
+        
+        .nav-link:hover {
+            color: #D65555;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #FF9999 0%, #FFB3B3 50%, #FF8888 100%);
+            color: #6B1B1B;
+        }
+        
+        .hero-title {
+            color: #6B1B1B;
+        }
+        
+        .hero-subtitle {
+            color: #8B2E2E;
+        }
+        
+        .intro {
+            background-color: #FFEEEE;
+        }
+        
+        .intro h2 {
+            color: #C94444;
+        }
+        
+        .intro p {
+            color: #7A3333;
+        }
+        
+        .how-it-works {
+            background: linear-gradient(to bottom, #FFD6D6 0%, #FFBABA 100%);
+        }
+        
+        .how-it-works h2 {
+            color: #C94444;
+        }
+        
+        .step-number {
+            background-color: #FF9999;
+            color: #6B1B1B;
+            box-shadow: 0 4px 10px rgba(255, 136, 136, 0.4);
+        }
+        
+        .step:nth-child(2) .step-number {
+            background-color: #FFA3A3;
+        }
+        
+        .step:nth-child(3) .step-number {
+            background-color: #FFADAD;
+        }
+        
+        .step:nth-child(4) .step-number {
+            background-color: #FFB8B8;
+        }
+        
+        .step h3 {
+            color: #6B1B1B;
+        }
+        
+        .step p {
+            color: #7A3333;
+        }
+        
+        .footer {
+            background: linear-gradient(135deg, #D65555 0%, #C94444 100%);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">
+                <img src="logo.png" alt="EhCookWhat Logo">
+                <span>EhCookWhat</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="home.html" class="nav-link active">About</a>
+                <a href="https://23009519-annabelle.github.io/C240FAChatBot/rice-station.html" class="nav-link">Rice</a>
+                <a href="https://dial-up-dreams.github.io/EhCookWhat/" class="nav-link">Noodles</a>
+                <a href="https://bloopswy.github.io/EhCookWhatSoupAssistant/" class="nav-link">Soup</a>
+                <a href="https://herlocksholmess.github.io/VegetableAIChef/" class="nav-link">Vegetables</a>
+                <a href="https://yaphuii.github.io/Dessert/Explore-Recipes.html" class="nav-link">Dessert</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">About EhCookWhat</h1>
+            <p class="hero-subtitle">Your friendly guide to cooking Chinese dishes at home</p>
+        </div>
+    </section>
+
+    <!-- Intro Section -->
+    <section class="intro scroll-animate">
+        <div class="container">
+            <h2>Why EhCookWhat?</h2>
+            <p>We get it – deciding what Chinese food to cook can be overwhelming. With so many dishes and ingredients, where do you even start?</p>
+            <p>EhCookWhat is here to help. We focus on <strong>practical, fragrant, home-style dishes</strong> that are simple enough to make on a weeknight but tasty enough to impress. No complicated techniques, no stress – just good food that brings comfort to your table.</p>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works scroll-animate">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Choose a category</h3>
+                    <p>Pick what you're craving – rice, noodles, soup, vegetables, or dessert</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Chat with the cooking assistant</h3>
+                    <p>Tell our AI assistant what you have and get personalized suggestions</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Get recipe suggestions</h3>
+                    <p>Receive easy-to-follow recipes tailored to your needs</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Cook with confidence</h3>
+                    <p>Follow simple steps and enjoy delicious Chinese food at home</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Made for people who love Chinese food but hate deciding what to cook.</p>
+            <p class="copyright">&copy; 2026 EhCookWhat. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Scroll Animation Observer
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            // Observe all scroll-animate elements
+            const animateElements = document.querySelectorAll('.scroll-animate');
+            animateElements.forEach(el => observer.observe(el));
+        });
+    </script>
+</body>
+</html>
